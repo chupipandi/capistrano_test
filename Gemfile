@@ -31,3 +31,4 @@ gem 'haml-rails'
 gem 'capistrano-rails'
 gem 'capistrano-rvm'
 gem 'capistrano3-puma' , group: :development
+gem 'puma'

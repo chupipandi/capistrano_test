@@ -48,7 +48,6 @@ namespace :deploy do
     end
   end
 
-  before  'assets:precompile', 'bower:install'
   after   :updated,            'deploy:assets:precompile'
   after   :updated,            'deploy:migrate'
   before  :finishing,          'puma:restart'
