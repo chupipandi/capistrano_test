@@ -32,3 +32,5 @@ gem 'capistrano-rails'
 gem 'capistrano-rvm'
 gem 'capistrano3-puma' , group: :development
 gem 'puma'
+
+gem 'newrelic_rpm'

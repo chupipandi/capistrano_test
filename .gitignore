@@ -18,3 +18,4 @@
 Capfile
 
 config/deploy
+config/newrelic.yml
